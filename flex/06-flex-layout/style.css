@@ -34,16 +34,18 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 16px;
 
  }
 
  ul.left-links, ul.right-links {
   display: flex;
-  width: 150px;
   flex-direction: row;
   justify-items: center;
-  gap: 30px;
+  gap: 16px;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
  }
 
 .content {
@@ -58,7 +60,14 @@ input {
 }
 
 a {
-  color: #2f2e2e;
+  color: #666;
   text-decoration: none;
-  font-size: small;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+input {
+  margin-top: 15px;
 }
